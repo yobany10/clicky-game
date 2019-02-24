@@ -1,27 +1,12 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Jumbotron from "./components/Jumbotron";
-import Card from "./components/Card";
+import React, { Component } from 'react';
+import Game from "./components/Game";
 
-function App() {
-  return (
-    <div className="container">
-      <Navbar />
-      <Jumbotron />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </div>
-  );
+class App extends Component {
+ render() {
+   return (
+     <Game />
+   );
+ }
 }
 
 export default App;
