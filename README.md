@@ -5,3 +5,5 @@ A memory game created with React. The player has to click all 12 images without 
 * ES6
 * Bootstrap
 * CSS
+### Play here
+https://yobany10.github.io/clicky-game/
