@@ -1,12 +1,12 @@
 .card {
-    height: 150px;
-    width: 150px;
-    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+    border: 1px solid lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin-top: 10px;
+    margin-bottom: 20px;
 
     img {
         height: 100%;
